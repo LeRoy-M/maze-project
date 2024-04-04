@@ -838,6 +838,9 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background: url("assets/img/hero-bg.mp4") top center;
+  background-size: cover;
 }
 
 .hero img {
@@ -848,6 +851,14 @@ section,
   height: 100%;
   object-fit: cover;
   z-index: 1;
+}
+
+#video-bg {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  bottom: 0;
 }
 
 .hero:before {
